@@ -54,3 +54,10 @@ console.log("This is Working!");
 
     tableau.registerConnector(myConnector);
 })();
+
+document.querySelector("#getData").addEventListener('click',getData)
+
+function getData() {
+    tableau.connectionName = "Dutch Corona Numbers"
+    tableau.submi()
+}
