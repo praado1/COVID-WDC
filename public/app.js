@@ -1,4 +1,4 @@
-console.log("This is Working!")
+console.log("This is Working!");
 
 
 (function () {
